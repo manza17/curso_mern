@@ -46,3 +46,5 @@
 
 - _serve:coverage:_ Se utiliza para correr los test y generar el resporte de los mismos.
 
+## Variables de entorno
+### Las variables de entornos que hay que crear estan especificadas en el archivo .env.example. Hasta el momento, sólo se configuró el puerto
