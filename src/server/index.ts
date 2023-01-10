@@ -12,6 +12,8 @@ import helmet from "helmet";
 const server: Express = express();
 
 server.use("/api", router);
+//static server
+server.use(express.static("public"));
 
 //TODO mongoose connection
 
